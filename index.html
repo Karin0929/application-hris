@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <link href="fontawesome-free-5.10.2-web/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="default.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="center-middlebx">
+            <img src="images/logo.png" class="mx-auto d-block mt-8" alt="" />
+            <div class="btns-landing mx-auto mt-3">
+                <span><a href="login.html">LOGIN</a></span>
+                <span></span>
+                <span><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">SIGN UP</a></span>
+
+                <!-- Large modal -->
+                <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
+                    aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modalbox">
+                                <div class="left-pnl-image">
+                                    <img src="images/logo-register.png" class="vert-move" alt="" />
+                                </div>
+                                <div class="right-pnl-form">
+                                    <h4 class="modal-title pt-3 pb-3">Register</h4>
+                                    <div class="row">
+                                        <div class="col">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <input placeholder="First Name *" type="" class="form-control">
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="col">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <input placeholder="Middle Name" type="" class="form-control">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <input placeholder="Last Name *" type="" class="form-control">
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="col">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <input placeholder="Name Extension" type="" class="form-control">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <input placeholder="User Name *" type="" class="form-control">
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="col">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <input placeholder="Sex *" type="" class="form-control">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <input placeholder="Contact  Number * - e.g.: 09123456789" type=""
+                                                        class="form-control">
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="col">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <input placeholder="Birthday *" type="" class="form-control">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <input placeholder="Email Address * - e.g.: 09123456789" type=""
+                                                        class="form-control">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <div class="form-group">
+                                                        <div class="input-group" id="show_hide_password">
+                                                            <input class="form-control" type="password"
+                                                                placeholder="Password *">
+                                                            <div class="input-group-addon">
+                                                                <a href=""><i class="fa fa-eye-slash"
+                                                                        aria-hidden="true"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="col">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <div class="form-group">
+                                                        <div class="input-group" id="show_hide_password">
+                                                            <input class="form-control" type="password"
+                                                                placeholder="Confirm Password *">
+                                                            <div class="input-group-addon">
+                                                                <a href=""><i class="fa fa-eye-slash"
+                                                                        aria-hidden="true"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <p class="pt-3">
+                                                        Please prove you are not a robot
+                                                    </p>
+                                                    <div class="capcha-box">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value=""
+                                                                id="flexCheckDefault">
+                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                I'm not a robot
+                                                            </label>
+                                                        </div>
+                                                        <img src="images/captcha-img.jpg" alt="" />
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <div class="d-flex justify-content-end">
+                                                <button type="button" class="btn btn-secondary mr-space" data-dismiss="modal">Cancel</button>
+                                                <button type="button" class="btn btn-primary btn-reg">Register</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Large modal end -->
+            </div>
+            <div class="row listing-items mt-5">
+                <div class="col-lg-4 mb-4 itembox">
+                    <i class="fas fa-map-marked-alt mb-2 color-bl"></i>
+                    <p>Walk-In Application</p>
+                </div>
+                <div class="col-lg-4 mb-4 itembox">
+                    <i class="fas fa-list-alt mb-2 color-pk"></i>
+                    <p>View Job Listing</p>
+                    <span>Look for your desire position!</span>
+                </div>
+                <div class="col-lg-4 mb-4 itembox">
+                    <i class="fas fa-phone-square-alt mb-2 color-yl"></i>
+                    <p>Contact Us</p>
+                    <ul>
+                        <li>support@gmail.com</li>
+                        <li>|</li>
+                        <li>045-1234</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="ftbox">
+            <span>© 2023 Copyright: Radenta Technologies Inc.</span>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#show_hide_password a").on('click', function (event) {
+                event.preventDefault();
+                if ($('#show_hide_password input').attr("type") == "text") {
+                    $('#show_hide_password input').attr('type', 'password');
+                    $('#show_hide_password i').addClass("fa-eye-slash");
+                    $('#show_hide_password i').removeClass("fa-eye");
+                } else if ($('#show_hide_password input').attr("type") == "password") {
+                    $('#show_hide_password input').attr('type', 'text');
+                    $('#show_hide_password i').removeClass("fa-eye-slash");
+                    $('#show_hide_password i').addClass("fa-eye");
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>

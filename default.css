@@ -1,0 +1,419 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    font-family: 'Candara', Arial, Helvetica;
+    background: url("images/landingbg.jpg") no-repeat;
+}
+
+.center-middlebx {
+    padding: 10% 0;
+    /* min-height: 400px;
+    align-items: center; */
+    /* border: 1px solid red;  */
+}
+
+.btns-landing {
+    width: 220px;
+    height: 50px;
+    display: flex;
+    border-radius: 50px;
+    border: 1px solid #58c5ff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 35px;
+    font-weight: initial;
+    background: #fff;
+}
+
+.btns-landing span:nth-child(2):after {
+    content: "";
+    border-left: 1px solid #58c5ff;
+}
+
+.btns-landing a {
+    color: #333;
+    outline: none;
+    text-decoration: none;
+}
+
+.btns-landing a:hover {
+    color: #58c5ff !important;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.itembox {
+    display: block;
+    text-align: center;
+}
+
+.itembox:hover {
+    cursor: pointer;
+}
+
+.listing-items {
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.listing-items i {
+    font-size: 30px;
+}
+
+.itembox span,
+.itembox ul li {
+    color: #6a6a6a;
+    font-size: 12px;
+}
+
+.itembox ul {
+    list-style: none;
+}
+
+.itembox ul li {
+    display: inline-flex;
+}
+
+.color-bl {
+    color: #58c5ff;
+}
+
+.color-pk {
+    color: #ffb3b3;
+}
+
+.color-yl {
+    color: #ffde70;
+}
+
+.itembox p {
+    margin: 0;
+}
+
+.modalbox {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.left-pnl-image {
+    width: 30%;
+    background-image: url(images/register-image.jpg);
+    background-color: #f4f4f4;
+}
+
+.left-pnl-image img {
+    width: 50%;
+    box-shadow: 1px 6px 7px -5px #888888;
+    border-radius: 100%;
+    margin: 40px auto;
+    display: block;
+}
+
+.right-pnl-form {
+    width: 70%;
+    background: #fff;
+    padding: 20px;
+}
+
+.capcha-box {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.input-group-addon {
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #495057;
+    text-align: center;
+    background-color: #e9ecef;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 0.25rem;
+
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+img.vert-move {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+img.vert-move {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+.left-panell {
+    width: 55%;
+    position: relative;
+}
+
+.left-panell a {
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+}
+
+.left-panell a:hover {
+    text-decoration: underline;
+}
+
+.left-panell p {
+    text-align: center;
+    margin: 0;
+}
+
+.logo-login {
+    width: 140px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding-top: 70px;
+}
+
+.frm-sz {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.icon-sz {
+    padding: 5px;
+    color: #fff;
+}
+
+.icon-bgclr {
+    background: #58c5ff;
+}
+
+.colortxt {
+    color: #0175b4;
+}
+
+.right-panell {
+    width: 40%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    /* visibility: hidden; */
+    background-position: bottom;
+    background-size: cover;
+    background-image: url(images/login-bgright.jpg);
+}
+
+.shaders {
+    /* background: rgba(0, 0, 0, 0.2); */
+    height: 100%;
+    position: relative;
+}
+
+.logn-btn {
+    background: #fff;
+    color: #333;
+    border: 1px solid #58c5ff;
+}
+
+.btn-reg {
+    background: #0089d2;
+}
+
+.left-panell .btn:hover {
+    background: #58c5ff;
+}
+
+.left-panell .form-check-input[type=checkbox] {
+    border-color: #999;
+}
+
+.mr-space {
+    margin-right: 20px;
+}
+
+.ftbox {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.box {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+}
+
+.hd-title {
+    background: #d6f2ff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #58c5ff;
+}
+
+.hd-title h2 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.txtlable {
+    align-items: end;
+}
+
+.txtlable label {
+    color: #0089d2;
+}
+
+.info-descrp {
+    padding: 5px;
+}
+
+.info-descrp h5, .blutxt {
+    font-size: 14px;
+    color: #0089d2;
+}
+
+.blutxt {
+    padding-left: 20px;
+}
+
+.pbox {
+    border-radius: 5px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.alert-txt {
+    color: #fd397a;
+}
+
+.editbox {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.editbox i {
+    border-radius: 100%;
+    padding: 10px 15px;
+    
+    color: #fff;
+}
+
+.editbox a {
+    background: #0089d2;
+    border-radius: 100%;
+    text-decoration: none;
+}
+
+.editbox a:hover {
+    background: #58c5ff;
+    
+}
+
+.editbox button {
+    text-decoration: none; 
+    color: #0089d2;
+}
+
+.editbox button:hover {
+    text-decoration: underline;
+}
+
+.editbx-list {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px 10px 0 0;
+}
+
+.editbx-list a {
+    color: inherit;
+    outline: none;
+}
+
+.editbx-list a:hover {
+    color: #0089d2;
+}
+
+.add-flist, .rightbtmbtns {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.add-flist a {
+    color: #58c5ff;
+    outline: none;
+    font-size: 28px;
+}
+
+.add-flist i {
+    margin-right: 10px;
+}
+
+.add-flist span {
+    font-size: 16px;
+}
+
+.add-flist a:hover {
+    color: #0089d2;
+}
+
+.hideshowbox {
+    display: none; /*******HIDING*******/
+    margin: 10px 10px 0 0;
+}
+
+.inside-sub {
+    display: flex;
+    align-items: center;
+}
+
+.inside-sub span {
+    padding-right: 20px;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@media (max-width: 576px) {
+    .frm-sz {
+        width: 100%;
+    }
+
+    .right-panell {
+        display: none;
+    }
+
+    .left-panell {
+        width: 100%;
+    }
+}
+
+
